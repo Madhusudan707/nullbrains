@@ -5,7 +5,7 @@ export const AutomatedTasks = () => {
         <div className="flex items-center justify-center space-x-16">
        
         <div className="flex flex-col ">
-          <h2 className="text-3xl mb-4">Automated Tasks</h2>
+          <h2 className="text-3xl mb-4 lg:mt-0 mt-12 lg:text-left text-center font-bold">Automated Tasks</h2>
           <div className="mb-8 text-gray-600">
             <p>Save time and money with our revolutionary</p>
             <p>services. We are the leaders in the industry</p>
@@ -32,7 +32,7 @@ export const AutomatedTasks = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div  className='lg:inline hidden'>
           <img src="/images/automated_tasks.png" alt="boost" />
         </div>
       </div>

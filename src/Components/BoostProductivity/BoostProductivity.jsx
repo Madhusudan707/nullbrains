@@ -2,13 +2,13 @@ import React from "react";
 
 export const BoostProductivity = () => {
   return (
-    <div className="flex items-center justify-center space-x-16">
-      <div>
+    <div className="flex items-center justify-center lg:space-x-16">
+      <div className='lg:inline hidden'>
         <img src="/images/boost_productivity.png" alt="boost" />
       </div>
       <div className="flex flex-col ">
-        <h2 className="text-3xl mb-4">Boost Productivity</h2>
-        <div className="mb-8 text-gray-600">
+        <h2 className="text-3xl mb-4 lg:mt-0 mt-12 lg:text-left text-center font-bold">Boost Productivity</h2>
+        <div className="mb-8 text-gray-600 text-center ">
           <p>Build an atmosphere that creates productivity in</p>
           <p>your organization and your company culture.</p>
         </div>
