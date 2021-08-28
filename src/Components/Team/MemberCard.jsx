@@ -10,7 +10,7 @@ export const MemberCard = ({imgSrc}) => {
        
       </div> */}
       <div className=" flex items-center w-44  sm:w-60 sm:h-60 m-2 text-center  sm:my-3 ">
-        <div className="p-5 bg-blue-300 rounded-l-full rounded-br-full">
+        <div className="p-5 bg-blue-300 rounded-l-full rounded-b-full">
         <div className="rounded-full bg-purple-300">
           <img src={imgSrc} className="rounded-full border" alt="t1" />
         </div>
