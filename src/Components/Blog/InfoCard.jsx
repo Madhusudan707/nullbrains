@@ -4,7 +4,7 @@ export const InfoCard = ({img,altText,heading,desc,btnText,bgColor}) => {
     return (
         <div className='flex flex-col border w-72 justify-center items-center rounded-lg'>
             <div>
-                <img src={`/images/blog/${img}.png`} className='rounded-lg'  alt={altText}/>
+                <img src={`/images/blog/${img}.png`} className='rounded-t-lg'  alt={altText}/>
             </div>
             <div className={` w-full `}>
                 <div className='relative p-4'>
