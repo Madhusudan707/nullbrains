@@ -1,9 +1,9 @@
 
 
-export const Card = ({img,btnText,heading,tagline,altText,bg1,bg2,textColor}) => {
+export const Card = ({img,btnText,heading,tagline,altText,bg1,bg2,textColor,radius}) => {
     return (
         <div className='flex flex-col border w-72 justify-center items-center rounded-lg  '>
-            <div className={`${bg1} w-full flex items-center justify-center `}>
+            <div className={`${bg1} w-full flex items-center justify-center ${radius}`}>
                 <img src={`/images/blog/${img}.png`} className='h-72' alt={altText}/>
             </div>
             <div className={`${bg2} w-full rounded-b-lg `} >
