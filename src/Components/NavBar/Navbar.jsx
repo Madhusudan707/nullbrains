@@ -24,10 +24,10 @@ export const Navbar = ()=>{
         </div>
         </div>
          <ul className='lg:hidden flex justify-between items-center px-8 mt-24 '>
-             <li><a href='#!'>Home</a></li>
-             <li><a href='#!'>Features</a></li>
-             <li><a href='#!'>Blog</a></li>
-             <li><a href='#!'>Contact</a></li>
+             <li><a href='#home'>Home</a></li>
+             <li><a href='#feature'>Features</a></li>
+             <li><a href='#blog'>Blog</a></li>
+             <li><a href='#contact'>Contact</a></li>
              <li><a href='#!'><i className="fas fa-search  "></i></a></li>
          </ul>
      
