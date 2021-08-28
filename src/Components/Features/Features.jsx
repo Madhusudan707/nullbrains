@@ -2,7 +2,7 @@ import { Card } from "./Card"
 
 export const Features = () => {
     return (
-        <div className='flex justify-center mt-12'>
+        <div id='feature' className='flex justify-center mt-12'>
             <div className='flex flex-col space-y-12'>
                 <div className='text-center'>
                     <h1 className='text-3xl '>Our Features</h1>

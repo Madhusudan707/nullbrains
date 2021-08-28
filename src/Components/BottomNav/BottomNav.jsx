@@ -2,7 +2,7 @@
 
 export const BottomNav = () => {
     return (
-        <div>
+        <div id='contact'>
             <div className='flex flex-col space-y-4'>
                 <ul className='flex justify-center space-x-4 text-gray-500'>
                     <li>About</li>

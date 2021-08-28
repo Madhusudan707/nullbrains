@@ -1,0 +1,7 @@
+ul li a:hover {
+    border-bottom:1px #FFF solid;
+    }
+
+ ul li .active {
+    border-bottom:3px #FFF solid;
+    }
